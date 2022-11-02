@@ -12,17 +12,17 @@ while True:
             pygame.quit()
             sys.exit()
         elif event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_q :
+            if event.key == pygame.K_q:
                 pygame.quit()
                 sys.exit()
-            elif event.key == pygame.K_UP :
-                print('↑')
-            elif event.key == pygame.K_DOWN :
-                print('↓')
-            elif event.key == pygame.K_RIGHT :
-                print('→')
-            elif event.key == pygame.K_LEFT :
-                print('←')
+            elif event.key == pygame.K_UP:
+                print("↑")
+            elif event.key == pygame.K_DOWN:
+                print("↓")
+            elif event.key == pygame.K_RIGHT:
+                print("→")
+            elif event.key == pygame.K_LEFT:
+                print("←")
     red = random.randint(0, 255)
     green = random.randint(0, 255)
     blue = random.randint(0, 255)
