@@ -2,4 +2,4 @@
 
 Projet pour recréer le jeu snake 🐍
 
-https://github.com/boisgera/python-fr
+[lien](https://github.com/boisgera/python-fr)
